@@ -16,7 +16,7 @@ public class Product {
     private String name;
     private Double price;
     private String ingredients;
-    private String nutritrionalInformation;
+    private String nutritionalInformation;
     private boolean glutenFree;
     private boolean lactoseFree;
     private boolean suguarFree;
@@ -45,11 +45,11 @@ public class Product {
     public void setIngredients(String ingredients) {
         this.ingredients = ingredients;
     }
-    public String getNutritrionalInformation() {
-        return nutritrionalInformation;
+    public String getnutritionalInformation() {
+        return nutritionalInformation;
     }
-    public void setNutritrionalInformation(String nutritrionalInformation) {
-        this.nutritrionalInformation = nutritrionalInformation;
+    public void setnutritionalInformation(String nutritionalInformation) {
+        this.nutritionalInformation = nutritionalInformation;
     }
     public boolean isGlutenFree() {
         return glutenFree;
@@ -72,13 +72,13 @@ public class Product {
     public Product() {
     }
 
-    public Product(Integer id, String name, Double price, String ingredients, String nutritrionalInformation,
+    public Product(Integer id, String name, Double price, String ingredients, String nutritionalInformation,
             boolean glutenFree, boolean lactoseFree, boolean suguarFree) {
         this.id = id;
         this.name = name;
         this.price = price;
         this.ingredients = ingredients;
-        this.nutritrionalInformation = nutritrionalInformation;
+        this.nutritionalInformation = nutritionalInformation;
         this.glutenFree = glutenFree;
         this.lactoseFree = lactoseFree;
         this.suguarFree = suguarFree;
