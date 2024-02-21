@@ -2,6 +2,17 @@
 Hackaton project for Globant
 
 
+## Backend method table
+
+| Method  | URL | Objective |
+| ------------- |:-------------:|:-------------:|
+| GET    | /products     | View all products |
+| GET    | /products/{id}     |View information about one product|
+| GET   | /products?query=    |Filtered search|
+
+
+
+
 
 ## 📜License
 
