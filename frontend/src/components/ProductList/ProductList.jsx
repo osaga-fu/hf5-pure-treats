@@ -31,8 +31,8 @@ export default function ProductList() {
             alt={product.name}
           />
           <section className="productTextInfo">
-            <h2>{product.name}</h2>
-            <h4>{product.price} €</h4>
+            <h2 className="productName">{product.name}</h2>
+            <h4 className="productPrice">{product.price} €</h4>
             <button className="moreInfoButton">Más info</button>
           </section>
         </article>

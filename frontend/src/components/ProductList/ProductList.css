@@ -32,8 +32,17 @@
   justify-content: space-between;
 }
 
+.productName {
+  font-weight: 400;
+}
+
+.productPrice {
+  font-weight: 400;
+}
+
 .moreInfoButton {
   position: absolute;
   right: 1rem;
   bottom: 1rem;
+  font-weight: 400;
 }

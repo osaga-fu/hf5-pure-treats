@@ -17,6 +17,7 @@ ul {
 li {
   margin: 0 10px;
   font-size: 16px;
+  font-weight: 200;
 }
 
 @media screen and (max-width: 768px) {
