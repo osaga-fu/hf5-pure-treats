@@ -1,0 +1,23 @@
+.productCard {
+  width: 28rem;
+  height: 28rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.productImage {
+  width: 28rem;
+}
+
+.productTextInfo {
+  position: relative;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.moreInfoButton {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 1rem;
+}
