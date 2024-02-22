@@ -1,6 +1,6 @@
-import "./ProductCard.css";
+import "./ProductList.css";
 
-export default function ProductCard() {
+export default function ProductList() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -13,8 +13,8 @@ export default function ProductCard() {
     <article className="productCard">
       <img
         className="productImage"
-        src="https://cdn.pixabay.com/photo/2017/05/26/07/48/cookies-2345439_960_720.jpg"
-        alt="cookie"
+        src={product.photoUrl}
+        alt={product.name}
       />
       <section className="productTextInfo">
         <h2>{product.name}</h2>
