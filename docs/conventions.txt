@@ -1,0 +1,17 @@
+CONVENTIONS:
+Folders. Folders in PascalCase.
+jsx files in PascalCase.
+Methods in camelCase.
+Uppercase classes in PascalCase.
+Models: PascalCase
+Git branches in infinitve and with feature- the first word.
+Descriptive commits and starting with infinitive.
+
+CONVENCIONES:
+Carpetas. Las carpetas en PascalCase.
+Archivos jsx en PascalCase.
+Métodos en camelCase.
+Clases en mayúsculas en PascalCase.
+Modelos: PascalCase
+Ramas de git en infinitvo  y con feature- la primera palabra.
+Commits descriptivos y empezando con infinitivo.

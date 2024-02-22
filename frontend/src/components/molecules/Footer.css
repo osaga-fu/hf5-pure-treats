@@ -1,0 +1,51 @@
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #82A360;
+  color: white;
+  padding: 1rem 0.5rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.corporative-footer{
+  display:flex;
+  align-items: center;
+  margin-left: 3.75rem;
+}
+.footer-logo {
+  max-width: 5rem;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.social-icons-container{
+  flex-grow: 1;
+  display:flex;
+  justify-content: center;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.social-icons a img {
+  width: 2.5rem; 
+  height: auto;
+  margin-right: 0.65rem;
+}
+
+.social-icons a:hover,
+.social-icons a:focus {
+  opacity: 0.8;
+}
+
+.contact{
+  display: flex;
+  align-items: flex-end;
+  margin-right: 5rem;
+}
