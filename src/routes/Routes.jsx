@@ -1,17 +1,21 @@
-import React from 'react'
-import { Routes, Route }  from 'react-router-dom'
-import Home from '../views/Home'
-import ProductList from '../views/productlist'
-import Cart from '../views/Cart'
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import HomeView from "../components/views/HomeView";
+import ProductList from "../views/Productlist";
+import Cart from "../components/views/CartView";
+import StartFormView from "../components/views/StartFormView";
 
 const Routes = () => {
   return (
-    <Routes>
-    <Route path='/' element={<Home/>}/>
-    <Route path='/productlist' element={<ProductList/>}/>
-    <Route path='/cart' element={<Cart/>}/>
-</Routes>    
-  )
-}
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomeView />} />
+        <Route path="/" element={<Cart />} />
+        <Route path="/productlist" element={<ProductList />} />
+        <Route path="/startform" element={<StartFormView />} />
+      </Routes>
+    </Router>
+  );
+};
 
-export default Routes
+export default Routes;

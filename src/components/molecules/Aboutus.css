@@ -26,7 +26,7 @@
   /* Media query para ajustar estilos en pantallas más grandes */
   @media (min-width: 768px) {
     .about-us-container {
-      max-width: 1200px; 
+      width: 100%;
       margin: 0 auto;
       text-align: center; 
 
