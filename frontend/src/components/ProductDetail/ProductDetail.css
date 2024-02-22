@@ -1,0 +1,36 @@
+.detailContainer {
+  padding: 1rem 5rem 5rem 5rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.photoDetail {
+  width: 28rem;
+  height: 28rem;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  gap: 1rem;
+}
+
+.detailIngredients {
+  font-weight: 400;
+}
+
+.detailNutritional {
+  font-weight: 200;
+}
+.detailPrice {
+  align-self: flex-end;
+  font-weight: 400;
+}
+
+.buyButton {
+  width: 8rem;
+  align-self: flex-end;
+}
