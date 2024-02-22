@@ -9,6 +9,7 @@ public class ProductResponse {
     private boolean glutenFree;
     private boolean lactoseFree;
     private boolean suguarFree;
+    private String photoUrl;
 
     public Integer getId() {
         return id;
@@ -42,8 +43,12 @@ public class ProductResponse {
         return suguarFree;
     }
 
+    public String getPhotoUrl() {
+        return photoUrl;
+    }
+
     public ProductResponse(Integer id, String name, Double price, String ingredients, String nutritionalInformation,
-            boolean glutenFree, boolean lactoseFree, boolean suguarFree) {
+            boolean glutenFree, boolean lactoseFree, boolean suguarFree, String photoUrl) {
         this.id = id;
         this.name = name;
         this.price = price;
@@ -52,6 +57,7 @@ public class ProductResponse {
         this.glutenFree = glutenFree;
         this.lactoseFree = lactoseFree;
         this.suguarFree = suguarFree;
+        this.photoUrl = photoUrl;
     }
 
 }
