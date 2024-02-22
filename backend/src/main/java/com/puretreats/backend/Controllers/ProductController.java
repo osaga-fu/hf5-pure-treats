@@ -39,8 +39,10 @@ public class ProductController {
         Optional<Product> optionalProduct = productRepository.findById(id);
         if (optionalProduct.isPresent()) {
             Product existingProduct = optionalProduct.get();
-            ProductResponse productResponse = new ProductResponse(existingProduct.getId(),existingProduct.getName() ,existingProduct.getPrice(),existingProduct.getIngredients(),existingProduct.getnutritionalInformation(),existingProduct.isGlutenFree(),existingProduct.isLactoseFree(),existingProduct.isSugarFree(),existingProduct.getPhotoUrl(),     
-            );
+            ProductResponse productResponse = new ProductResponse(existingProduct.getId(), existingProduct.getName(),
+                    existingProduct.getPrice(), existingProduct.getIngredients(),
+                    existingProduct.getnutritionalInformation(), existingProduct.isGlutenFree(),
+                    existingProduct.isLactoseFree(), existingProduct.isSugarFree(), existingProduct.getPhotoUrl());
             return ResponseEntity.ok(productResponse);
         } else {
             return ResponseEntity.notFound().build();
