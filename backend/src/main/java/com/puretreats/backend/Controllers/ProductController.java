@@ -27,7 +27,7 @@ public class ProductController {
         for (Product product : productsInDatabase) {
             products.add(new ProductResponse(product.getId(), product.getName(), product.getPrice(),
                     product.getIngredients(), product.getnutritionalInformation(), product.isGlutenFree(),
-                    product.isLactoseFree(), product.isSuguarFree(), product.getPhotoUrl()));
+                    product.isLactoseFree(), product.isSugarFree(), product.getPhotoUrl()));
         }
         return products;
     }
