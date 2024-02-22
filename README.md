@@ -18,10 +18,11 @@ Agile Development: Following Agile principles, our development process emphasize
 
 To run Pure Treats locally:
 
-Clone the repository.
-Install dependencies using npm install for the frontend and mvn clean install for the backend.
-Configure the database settings in the application.properties file.
-Run the application using npm start for the frontend and mvn spring-boot:run for the backend.
+1. Clone the repository.
+2. Install dependencies using npm install for the frontend and mvn clean install for the backend.
+3. Configure the database settings in the application.properties file.
+4. Run the application using npm start for the frontend and mvn spring-boot:run for the backend.
+   
 Explore the world of Pure Treats, where each bite is a personalized journey into the delightful and healthy side of pastries. Enjoy your treat experience!
 
 Note: This vision statement is a fictional example created for the Factoria F5 Hackathon.
