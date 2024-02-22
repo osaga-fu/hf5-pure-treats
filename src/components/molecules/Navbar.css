@@ -1,49 +1,100 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header y Navbar */
 header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(255, 194, 160, 1);
-    
-  }
-  /* nav: position: fixed; por algún motivo de margen, se descoloca del sitio original*/
+  width: 97%;
+  background-color: rgba(255, 194, 160, 1);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 nav {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content:space-between; 
-    align-items: center;
-    color: azure;
+  display: flex;
+  align-items: center;
+}
+
+.puretreats_logo {
+  width: 80px;
+  height: 80px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+a:hover {
+  color: #fe6a80;
+}
+
+/* Botón de inicio */
+.button_start {
+  background-color: #fe6a80;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button_start:hover {
+  background-color: #ff3d54;
+}
+
+/* Menú Hamburguesa para móvil */
+.menu_icon {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .menu_icon {
+    display: block;
   }
-    .puretreats_logo{
-      width: 120px;
-      height: 120px;
-    }
+
   ul {
-    list-style: none;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 194, 160, 1);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  ul.active {
     display: flex;
-    align-content: space-between;
   }
-  li{
-    padding: 0 10px;
-    font-size: medium;
-    color: azure;
+
+  li {
+    margin: 10px 0;
   }
-  a {
-    color: black;
-    text-decoration: none;
-  }
-  .button_1 {
-    background-color: rgb(255, 255, 255);
-    color: #FE6A80;
-    border-color: #FE6A80;
-    width: 120px;
-    height: 30px;
-    font-size: 70%;
-    border-radius: 15px;
-    text-align: center;
-    cursor: pointer;
-  }
-  .button_1:hover {
-    filter: brightness(0.5);
-  }
+}
