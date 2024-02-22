@@ -13,6 +13,7 @@ import com.puretreats.backend.Models.Product;
 import com.puretreats.backend.Persistence.ProductRepository;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:5173")
@@ -47,6 +48,13 @@ public class ProductController {
         } else {
             return ResponseEntity.notFound().build();
         }
+    }
+
+    @GetMapping("/products/search")
+    public List<Product> searchProducts(@RequestParam("query") String query) {
+        return productRepository
+                .findAllByNameContainingIgnoreCaseOrIngredientsContainingIgnoreCase(
+                        query, query);
     }
 
 }
