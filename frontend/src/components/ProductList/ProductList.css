@@ -1,0 +1,35 @@
+.cardContainer{
+  display: flex;
+  gap: 5rem;
+  padding: 7rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.productCard {
+  width: 28rem;
+  height: 28rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.productImage {
+  width: 28rem;
+  height:28rem;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.productTextInfo {
+  height: 15rem;
+  position: relative;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.moreInfoButton {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 1rem;
+}
