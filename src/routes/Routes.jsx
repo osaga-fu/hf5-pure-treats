@@ -1,15 +1,17 @@
 import React from 'react'
 import { Routes, Route }  from 'react-router-dom'
-import Home from '../views/Home'
-import ProductList from '../views/productlist'
-import Cart from '../views/Cart'
+import HomeView from '../components/views/HomeView'
+import ProductList from '../views/Productlist'
+import Cart from '../components/views/CartView'
+import StartFormView from '../components/views/StartFormView'
 
 const Routes = () => {
   return (
     <Routes>
-    <Route path='/' element={<Home/>}/>
+    <Route path='/' element={<HomeView/>}/>
+    <Route path='/' element={<Cart/>}/>
     <Route path='/productlist' element={<ProductList/>}/>
-    <Route path='/cart' element={<Cart/>}/>
+    <Route path='/startform' element={<StartFormView/>}/>
 </Routes>    
   )
 }
