@@ -1,0 +1,34 @@
+header {
+  background-image: linear-gradient(
+    to bottom,
+    #ffb69e,
+    #ffb69e 70%,
+    transparent
+  );
+  padding: 1rem 6rem;
+  height: 10rem;
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-between;
+}
+
+.pureTreatsLogo {
+  width: 7rem;
+}
+
+.headerText {
+  width: 36rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.pureTreatsName {
+  font-size: 3rem;
+}
+
+.pureTreatsPhrase {
+  font-size: 1.4rem;
+}
