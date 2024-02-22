@@ -1,8 +1,8 @@
-# HT F5 - Pure Treats - Delightful and Healthy Treats Application 🥐
+# HT F5 - Pure Treats App
 
-## Our Objective
+## 🎯 Our Objective
 
-At Pure Treats, we're crafting a web application that redefines the way you experience pastries. Our goal is to provide a personalized, worry-free, and sustainable approach to enjoying delightful treats.
+At Pure Treats, we're crafting a web application that redefines the way you experience pastries. Our goal is to provide a personalized, worry-free, and sustainable approach to enjoying delightful treats. 🥐🍪🍩
 
 Key Features:
 
@@ -12,22 +12,7 @@ Health-Conscious Indulgence: We aim to strike a perfect balance between flavor a
 
 Agile Development: Following Agile principles, our development process emphasizes collaboration, transparency, and efficient communication.
 
-
-
-## 💻 Installation Steps. Get Started:
-
-To run Pure Treats locally:
-
-1. Clone the repository.
-2. Install dependencies using npm install for the frontend and mvn clean install for the backend.
-3. Configure the database settings in the application.properties file.
-4. Run the application using npm start for the frontend and mvn spring-boot:run for the backend.
-   
-Explore the world of Pure Treats, where each bite is a personalized journey into the delightful and healthy side of pastries. Enjoy your treat experience!
-
-Note: This vision statement is a fictional example created for the Factoria F5 Hackathon.
-
-## Technologies
+## ⚙️ Technologies
 
 ![Static Badge](https://img.shields.io/badge/Java-v%2017-green)
 ![Static Badge](https://img.shields.io/badge/Spring-v%203.2.2-green?logo=spring)
@@ -45,6 +30,19 @@ Note: This vision statement is a fictional example created for the Factoria F5 H
 ![Static Badge](https://img.shields.io/badge/FrontendDep-MUI-red?logo=mui)
 
 
+## 🚀 Installation Steps. Get Started:
+
+To run Pure Treats locally:
+
+1. Clone the repository.
+2. Install dependencies using npm install for the frontend and mvn clean install for the backend.
+3. Configure the database settings in the application.properties file.
+4. Run the application using npm start for the frontend and mvn spring-boot:run for the backend.
+   
+Explore the world of Pure Treats, where each bite is a personalized journey into the delightful and healthy side of pastries. Enjoy your treat experience!
+
+Note: This vision statement is a fictional example created for the Factoria F5 Hackathon.
+
 
 ## Branches
 
@@ -58,7 +56,7 @@ Note: This vision statement is a fictional example created for the Factoria F5 H
 
 
 
-## Backend method table
+## 💻 Backend method table
 
 | Method  | URL | Objective |
 | ------------- |:-------------:|:-------------:|
@@ -68,8 +66,9 @@ Note: This vision statement is a fictional example created for the Factoria F5 H
 
 
 
+## 🤝 Contributions
 
-
+Contributions are welcome. If you have any suggestions for improvement, please open an issue or pull request.
 
 
 ## 📜License
@@ -78,6 +77,11 @@ This project is licensed under the terms of the MIT license. This means that you
 
 
 ## 👩‍💻Authors
-Created by:
 
-- [HelenaDR84](https://github.com/HelenaDR84)
+Created by:
+- [Olaya Sánchez](https://github.com/osaga-fu)
+- [Helena de Rosa](https://github.com/HelenaDR84)
+- [Loli Vila](https://github.com/Vila71)
+- [Isadora Matías](https://github.com/IsadoraMatias)
+- [Erwin Massa](https://github.com/Ermapla)
+
