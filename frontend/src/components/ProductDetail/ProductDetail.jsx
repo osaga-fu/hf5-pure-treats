@@ -24,15 +24,17 @@ export default function ProductDetail() {
   return (
     <main>
       {data && (
-        <section>
-          <img src={data.photoUrl} alt={data.name} />
-          <h1>{data.name}</h1>
-          <h4>{data.ingredients}</h4>
-          <h3>{data.nutritionalInformation}</h3>
-          <h4>{data.price} por unidad</h4>
+        <section className="detailContainer">
+          <img src={data.photoUrl} alt={data.name} className="photoDetail" />
+          <span className="textContainer">
+            <h1>{data.name}</h1>
+            <h4 className="detailIngredients">{data.ingredients}</h4>
+            <h5 className="detailNutritional">{data.nutritionalInformation}</h5>
+            <h4 className="detailPrice">{data.price} € por unidad</h4>
+            <button className="buyButton">Comprar</button>
+          </span>
         </section>
       )}
     </main>
   );
-  
 }
