@@ -1,0 +1,48 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #82A360;
+  color: white;
+  padding: 1rem 0.5rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-logo img {
+  max-width: 70px;
+  height: auto;
+  
+}
+
+.social-and-legal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  width: fit-content;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.social-icons a img {
+  width: 24px; 
+  height: auto;
+}
+
+.social-icons a:hover,
+.social-icons a:focus {
+  opacity: 0.8;
+}
+
+.legal-text {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
