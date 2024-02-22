@@ -1,7 +1,7 @@
 import "./ProductList.css";
 
 import { useState, useEffect } from "react";
-import axios from "axios";
+import { Link } from "react-router-dom";
 
 export default function ProductList() {
   const [data, setData] = useState([]);
@@ -33,7 +33,12 @@ export default function ProductList() {
           <section className="productTextInfo">
             <h2 className="productName">{product.name}</h2>
             <h4 className="productPrice">{product.price} €</h4>
-            <button className="moreInfoButton">Más info</button>
+            <Link
+              to={`/products/${product.id}`}
+              className="moreInfoButton"
+            >
+              Más info
+            </Link>
           </section>
         </article>
       ))}

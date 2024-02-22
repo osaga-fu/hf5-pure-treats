@@ -45,4 +45,8 @@
   right: 1rem;
   bottom: 1rem;
   font-weight: 400;
+  background-color: #ffb69e;
+  border-radius: 8px;
+  border: 1.5px solid transparent;
+  padding: 0.6em 1.2em;
 }
