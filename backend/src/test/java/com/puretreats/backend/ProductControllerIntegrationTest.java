@@ -89,4 +89,6 @@ public class ProductControllerIntegrationTest {
                .andExpect(jsonPath("$.photoUrl").value("photo2.jpg"));
           
     }
+
+    
 }
