@@ -1,16 +1,19 @@
-# HT F5 - Pure Treats App
+ # HT F5 - Pure Treats App <br>
 
 ## 🎯 Our Objective
 
-At Pure Treats, we're crafting a web application that redefines the way you experience pastries. Our goal is to provide a personalized, worry-free, and sustainable approach to enjoying delightful treats. 🥐🍪🍩
+At Pure Treats we are creating a web application that redefines the way you enjoy baking. Our goal is to offer a personalized, worry-free and sustainable approach to enjoying delicious treats. 
 
-Key Features:
+Key features:
 
-Customized Delights: Pure Treats connects users with local bakeries, offering personalized pastry options based on individual preferences and dietary requirements.
+Personalized treats: Pure Treats connects users with local bakeries, offering customized options based on individual preferences and dietary requirements.
 
-Health-Conscious Indulgence: We aim to strike a perfect balance between flavor and health, ensuring a guilt-free and enjoyable treat experience.
+Health-conscious indulgence: We aim to achieve a perfect balance between taste and health, ensuring a guilt-free and enjoyable pastry experience.<br><br>
 
-Agile Development: Following Agile principles, our development process emphasizes collaboration, transparency, and efficient communication.
+## 🥐🍪🍩 Final Result
+![Pure Treats Landing Page](https://media.discordapp.net/attachments/1209827846089084963/1210360870580785174/image.png?ex=65ea4766&is=65d7d266&hm=c74e66d1f330d743845277bf6b6efe8a0c83f12e4e4dc998f3e91c3b9ba8571c&=&format=webp&quality=lossless&width=1232&height=602)
+<br><br><br>
+
 
 ## ⚙️ Technologies
 
@@ -28,6 +31,7 @@ Agile Development: Following Agile principles, our development process emphasize
 ![Static Badge](https://img.shields.io/badge/FrontendDev-Vite%20v5.0.8-red?logo=vite)
 ![Static Badge](https://img.shields.io/badge/FrontendDep-Axios%20v.1.6.7-red?logo=axios)
 ![Static Badge](https://img.shields.io/badge/FrontendDep-MUI-red?logo=mui)
+<br><br>
 
 
 ## 🚀 Installation Steps. Get Started:
@@ -42,9 +46,9 @@ To run Pure Treats locally:
 Explore the world of Pure Treats, where each bite is a personalized journey into the delightful and healthy side of pastries. Enjoy your treat experience!
 
 Note: This vision statement is a fictional example created for the Factoria F5 Hackathon.
+<br><br>
 
-
-## Branches
+## 🪢 Branches
 
 | BRANCH   | Description                                                                           |
 | -------- | ------------------------------------------------------------------------------------- |
@@ -53,7 +57,7 @@ Note: This vision statement is a fictional example created for the Factoria F5 H
 | backend  | Backend development branch 
 | frontend | Frontend development branch                                             |
 | feature/...  | Various branches each one for an individual feature                            |
-
+<br><br>
 
 
 ## 💻 Backend method table
@@ -63,20 +67,21 @@ Note: This vision statement is a fictional example created for the Factoria F5 H
 | GET    | /products     | View all products |
 | GET    | /products/{id}     |View information about one product|
 | GET   | /products?query=    |Filtered search|
-
+<br><br>
 
 
 ## 🤝 Contributions
 
-Contributions are welcome. If you have any suggestions for improvement, please open an issue or pull request.
+Contributions are welcome. If you have any suggestions for improvement, please open an issue or pull request
+<br>
 
-
-## 📜License
+## 📜 License
 
 This project is licensed under the terms of the MIT license. This means that you can use, copy, modify and distribute the code freely, as long as you acknowledge the original authorship and do not use it for commercial purposes.
+<br><br>
 
 
-## 👩‍💻Authors
+## 👩‍💻 Authors
 
 Created by:
 - [Olaya Sánchez](https://github.com/osaga-fu)
